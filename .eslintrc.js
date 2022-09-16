@@ -15,5 +15,13 @@ module.exports = {
   plugins: [
   ],
   // add your custom rules here
-  rules: {}
+  rules: {
+    'vue/multi-word-component-names': [
+      'error',
+      {
+        ignores: ['index', 'index'] // 需要忽略的组件名
+      }
+    ]
+
+  }
 }
