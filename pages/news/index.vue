@@ -8,7 +8,7 @@
       <li><a href="/news/456">news-2</a></li>
       <li><a href="/news/false">news-false</a></li>
       <li>
-        <nuxt-link :to="{name:'news-id',params:{id:1234,title:'每日八卦'}}" >news</nuxt-link>
+        <nuxt-link :to="{name:'news-id',params:{id:1234,title:'每日八卦'}}" >news每日八卦</nuxt-link>
       </li>
     </ul>
   </div>

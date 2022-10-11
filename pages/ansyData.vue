@@ -13,6 +13,7 @@ export default {
          name:'hello World',
      }
   },
+  loading: true,
   async asyncData(){
       let {data}=await axios.get('http://114.132.227.188/timewalker/api/dict/query')
       console.log(data);
